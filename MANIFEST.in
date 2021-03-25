@@ -1,0 +1,8 @@
+include CHANGES.rst
+include noxfile.py
+graft requirements
+graft docs
+prune docs/_build
+graft tests
+include src/conveyor_schema/py.typed
+global-exclude *.pyc
