@@ -1,0 +1,107 @@
+x  modelName -> name
+x  displayName -> label
+x  displayNamePlural -> label_plural
+
+  fields
+  fieldOrder
+
+x  displayField
+
+  creatable
+  createFieldOrder
+
+  deletable
+  showDeleteModal
+
+  hasDetail
+  tabs -> detail_tabs
+  detailFieldOrder
+  tooltipFieldOrder
+
+  hasIndex
+  singleton
+  indexFieldOrder -> table_field_order
+  tableLinkField -> false instead of none
+  sortable
+  filterable
+  searchable
+
+  queryAllName
+  queryName
+  queryRequired
+
+getDisplayValue
+getNoDataDisplayValue
+getFieldLabel
+getModelLabel
+getModelLabelPlural
+getModel
+getFields
+getField
+getType
+getEnumLabel
+isTableEditable
+isRowEditable
+isFieldEditable
+isTableDeletable
+isDeletable
+isCreatable
+shouldDisplay
+shouldDisplayIndex
+shouldDisplayDetail
+shouldDisplayCreate
+isFieldDisabled
+isSortable
+isTableSortable
+isFilterable
+isTableFilterable
+getShownFields
+getDetailFields
+getIndexFields
+getCreateFields
+getTooltipFields
+getOptionsOverride
+getFieldConditions
+getFieldDisabledCondition
+getDropDownDisableCondition
+getFieldHelpText
+getRequiredFields
+getHasIndex
+getHasDetail
+getSingleton
+getEnumChoices
+getEnumChoiceOrder
+getCollapsable
+getSearchable
+getTableLinkField
+getTableFields
+isOneToMany
+isManyToMany
+isManyToOne
+isOneToOne
+isRel
+isString
+isEnum
+isURL
+isEmail
+isPhone
+isCurrency
+isDate
+isTextArea
+isFile
+isBoolean
+isPassword
+getCellOverride
+getDetailFieldOverride
+getDetailLabelOverride
+getDetailValueOverride
+getInputOverride
+getCreateOverride
+getCreateTitleOverride
+getCreatePageOverride
+getDetailOverride
+getDetailTitleOverride
+getDetailPageOverride
+getIndexOverride
+getIndexTitleOverride
+getIndexPageOverride
