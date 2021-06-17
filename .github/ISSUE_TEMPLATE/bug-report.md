@@ -12,7 +12,7 @@ Replace this comment with a clear outline of what the bug is.
 <!--
 Describe how to replicate the bug.
 
-Include a minimal reproducible example that demonstrates the bug.
+Include a minimal reproducible example.py that demonstrates the bug.
 
 Include the full traceback if there was an exception.
 -->

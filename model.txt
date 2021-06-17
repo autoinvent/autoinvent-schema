@@ -1,34 +1,34 @@
-x  modelName -> name
-x  displayName -> label
-x  displayNamePlural -> label_plural
+x  modelName -> name, get_model
+x  displayName -> label, get_label
+x  displayNamePlural -> label_plural, get_label_plural
 
-  fields
+  fields, get_field
   fieldOrder
 
 x  displayField
 
-  creatable
+  searchable -> show_in_search
+  singleton
+  hasIndex
+  indexFieldOrder -> table_field_order
+  tableLinkField
+  sortable -> table_can_sort
+  filterable -> table_can_filter
+
+  creatable -> can_create
   createFieldOrder
 
-  deletable
-  showDeleteModal
+  deletable -> can_delete
+  showDeleteModal -> show_in_rel_delete
 
   hasDetail
   tabs -> detail_tabs
   detailFieldOrder
   tooltipFieldOrder
 
-  hasIndex
-  singleton
-  indexFieldOrder -> table_field_order
-  tableLinkField -> false instead of none
-  sortable
-  filterable
-  searchable
-
-  queryAllName
-  queryName
-  queryRequired
+  queryAllName -> query_list
+  queryName -> query_item
+  queryRequired -> query_required_fields
 
 getDisplayValue
 getNoDataDisplayValue
