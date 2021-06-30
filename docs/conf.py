@@ -18,8 +18,14 @@ extensions = [
     "sphinxcontrib.log_cabinet",
     "sphinx_issues",
 ]
+autoclass_content = "both"
+autodoc_class_signature = "separated"
+autodoc_default_options = {"members": True}
+autodoc_member_order = "bysource"
+autodoc_preserve_defaults = True
+autodoc_typehints = "description"
 intersphinx_mapping = {"python": ("https://docs.python.org/3/", None)}
-issues_github_path = "autoinvent/py-conveyor-schema"
+issues_github_path = "autoinvent/autoinvent-schema-py"
 
 # HTML -----------------------------------------------------------------
 

@@ -1,1 +1,5 @@
-.. include:: ../LICENSE.rst
+Blue Oak Model License
+======================
+
+.. literalinclude:: ../LICENSE.rst
+    :language: rst
