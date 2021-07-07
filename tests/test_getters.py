@@ -1,14 +1,13 @@
+import dataclasses
 from uuid import uuid4
-
-import attr
 
 from test_defaults import model
 
 
-@attr.s(repr=False, eq=False, order=False, slots=True, kw_only=True, auto_attribs=True)
+@dataclasses.dataclass()
 class User:
-    id: int = attr.ib(factory=uuid4)
     name: str
+    id: int = dataclasses.field(default_factory=uuid4)
 
     @property
     def display_value(self) -> str:

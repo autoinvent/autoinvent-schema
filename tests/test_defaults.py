@@ -51,7 +51,7 @@ def test_query_list() -> None:
 
 
 def test_query_item() -> None:
-    assert model.query_item == "user"
+    assert model.query_single == "user"
 
 
 def test_query_required_fields() -> None:
