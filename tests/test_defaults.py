@@ -1,6 +1,6 @@
-from conveyor_schema.schema import Field
-from conveyor_schema.schema import Model
-from conveyor_schema.schema import Schema
+from autoinvent_schema.schema import Field
+from autoinvent_schema.schema import Model
+from autoinvent_schema.schema import Schema
 
 model = Model(
     name="user",

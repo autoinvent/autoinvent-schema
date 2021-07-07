@@ -1,10 +1,10 @@
 ---
 name: Bug report
-about: Report a bug in Conveyor-Schema (not other projects which depend on Conveyor-Schema)
+about: Report a bug in AutoInvent-Schema (not other projects which depend on AutoInvent-Schema)
 ---
 
 <!--
-This issue tracker is a tool to address bugs in Conveyor-Schema itself. Please do not ask for help with your own code.
+This issue tracker is a tool to address bugs in AutoInvent-Schema itself. Please do not ask for help with your own code.
 
 Replace this comment with a clear outline of what the bug is.
 -->
@@ -24,4 +24,4 @@ Describe the expected behavior that should have happened but didn't.
 Environment:
 
 - Python version:
-- Conveyor-Schema version:
+- AutoInvent-Schema version:

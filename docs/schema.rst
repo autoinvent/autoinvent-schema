@@ -1,7 +1,7 @@
 Schema Classes
 ==============
 
-.. module:: conveyor_schema.schema
+.. module:: autoinvent_schema.schema
 
 
 Schema

@@ -4,5 +4,5 @@ graft requirements
 graft docs
 prune docs/_build
 graft tests
-include src/conveyor_schema/py.typed
+include src/autoinvent_schema/py.typed
 global-exclude *.pyc

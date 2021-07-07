@@ -1,3 +1,3 @@
 from setuptools import setup
 
-setup(name="conveyor-schema", install_requires=["attrs", "inflect"])
+setup(name="autoinvent-schema", install_requires=["attrs", "inflect"])

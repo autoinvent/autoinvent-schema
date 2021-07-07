@@ -3,14 +3,13 @@ from pallets_sphinx_themes import ProjectLink
 
 # Project --------------------------------------------------------------
 
-project = "Conveyor Schema"
-copyright = "2021 David Lord"
-author = "David Lord"
-release, version = get_version("conveyor-schema")
+project = "AutoInvent Schema"
+copyright = "2021 AutoInvent"
+author = "AutoInvent"
+release, version = get_version("autoinvent-schema")
 
 # General --------------------------------------------------------------
 
-master_doc = "index"
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
@@ -32,10 +31,13 @@ issues_github_path = "autoinvent/autoinvent-schema-py"
 html_theme = "flask"
 html_context = {
     "project_links": [
-        ProjectLink("PyPI Releases", "https://pypi.org/project/conveyor-schema/"),
-        ProjectLink("Source Code", "https://github.com/autoinvent/py-conveyor-schema/"),
+        ProjectLink("PyPI Releases", "https://pypi.org/project/autoinvent-schema/"),
         ProjectLink(
-            "Issue Tracker", "https://github.com/autoinvent/py-conveyor-schema/issues/"
+            "Source Code", "https://github.com/autoinvent/autoinvent-schema-py/"
+        ),
+        ProjectLink(
+            "Issue Tracker",
+            "https://github.com/autoinvent/autoinvent-schema-py/issues/",
         ),
     ]
 }
