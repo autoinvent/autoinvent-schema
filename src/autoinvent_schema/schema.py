@@ -226,6 +226,9 @@ class Model:
 
         self.query_required_fields = query_required_fields
 
+    def __repr__(self) -> str:
+        return f"<Model {self.name}>"
+
     def get_display_value(self, obj: t.Any) -> str:
         """The value to display for a given instance of the model. By
         default this is the value of the attribute named by
@@ -375,6 +378,9 @@ class DetailTab:
         self.label = label
         self.fields = fields
         self.tabs = tabs
+
+    def __repr__(self) -> str:
+        return f"<DetailTab {self.name}>"
 
     def _flatten_fields(self) -> list[str]:
         out = self.fields.copy()
@@ -570,6 +576,9 @@ class Field:
         self.query_single_include = query_single_include
         self.virtual = virtual
 
+    def __repr__(self) -> str:
+        return f"<Field {self.name}>"
+
 
 class RelationshipType(_NameEnum):
     """Indicates the amount and direction of the relationship between
@@ -618,6 +627,9 @@ class RelationshipInfo:
         self.target = target
         self.backref = backref
         self.table_field_order = table_field_order
+
+    def __repr__(self) -> str:
+        return f"<RelationshipInfo {self.type} to {self.target}>"
 
     def get_table_field_order(self) -> list[str]:
         """The fields of the :attr:`target` model to display as columns
