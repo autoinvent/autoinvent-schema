@@ -9,12 +9,14 @@ Schema
 
 .. autoclass:: Schema
 
+
 Models
 ------
 
 .. autoclass:: Model
 
 .. autoclass:: DetailTab
+
 
 Fields
 ------
